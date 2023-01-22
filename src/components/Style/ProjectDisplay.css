@@ -1,0 +1,65 @@
+.project {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project h1 {
+  font-size: 53px;
+  font-family: 'Coolvetica';
+  color: #ffd700;
+  font-weight: 400;
+  margin-top: 100px;
+  position: relative;
+  margin-bottom: 40px;
+  left: 10px;
+}
+.project img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.project h2 {
+  font-size: 30px;
+  font-family: 'Coolvetica';
+  color: #ffd700;
+  font-weight: 400;
+  margin-top: 0;
+  position: relative;
+  margin-bottom: 40px;
+  left: 10px;
+}
+
+.project p {
+  display: block;
+  margin-left: 70px;
+  margin-right: 10px;
+  font-size: 18px;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+.project svg {
+  font-size: 60px;
+  color: #3e497a;
+}
+
+@media screen and (max-width: 1200px) {
+  .project h1 {
+    margin-top: 20px;
+    margin-left: -25px;
+  }
+
+  .project img {
+    width: 200px;
+    border-radius: 10px;
+  }
+  .project p {
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+}
