@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters'
-// import Logo from './Logo'
+import Logo from './Logo'
 import Loader from 'react-loaders'
 import './index.scss'
 
@@ -61,7 +61,7 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        {/* <Logo /> */}
+        <Logo />
       </div>
       <Loader type="pacman" />
     </>
