@@ -2,7 +2,6 @@ import Loader from 'react-loaders'
 import { useRef } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import emailjs from '@emailjs/browser'
-
 import './index.scss'
 
 const Contact = () => {
