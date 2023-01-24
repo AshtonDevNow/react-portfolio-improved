@@ -50,7 +50,7 @@ const Contact = () => {
           />
         </h1>
         <p>Ashton Lee Bunn</p>
-        <p>Living currently between Australia and Canada</p>
+        <p>Currently living between Australia and Canada</p>
         <p>You can fill this form or email later at ashtondevnow@outlook.</p>
         <div className="contact-form">
           <form ref={form} onSubmit={sendEmail}>
