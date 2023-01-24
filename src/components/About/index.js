@@ -35,11 +35,12 @@ const About = () => {
           <p>
             I am a skilled front-end developer with experience in full stack web
             development. My portfolio includes projects using various languages
-            and frameworks such as Ruby on Rails, Javascript, and Wechat
-            Devtools. I recently completed the Le Wagon full stack bootcamp and
-            have been working as a part-time freelancer for the past year. I am
-            now looking to take my skills to the next level by working and
-            learning with the best.
+            and frameworks such as{' '}
+            <b>ReactJS, Ruby on Rails, Javascript, and Wechat Devtools.</b> I
+            recently completed the Le Wagon full stack bootcamp and have been
+            working as a part-time freelancer for the past year. I am now
+            looking to take my skills to the next level by working and learning
+            with the best.
           </p>
           <p>
             In my current role as Operations Manager for a logistics company, I
